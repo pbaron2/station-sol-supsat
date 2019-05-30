@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Nathan_SMT_Other)(type KiCad)(uri "$(KIPRJMOD)/Nathan_SMT_Other.pretty")(options "")(descr ""))
+  (lib (name MyKiCadLibs-Footprints)(type KiCad)(uri "$(KIPRJMOD)/MyKiCadLibs-Footprints.pretty")(options "")(descr ""))
+  (lib (name _connectors)(type KiCad)(uri "$(KIPRJMOD)/_connectors.pretty")(options "")(descr ""))
+  (lib (name SI4463-B1B-FM)(type Legacy)(uri "$(KIPRJMOD)/SI4463-B1B-FM.mod")(options "")(descr ""))
+  (lib (name rf_station)(type KiCad)(uri "$(KIPRJMOD)/rf_station.pretty")(options "")(descr ""))
+)

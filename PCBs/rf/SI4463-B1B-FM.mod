@@ -1,0 +1,222 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+QFN50P400X400X90-20N
+$EndINDEX
+$MODULE QFN50P400X400X90-20N
+Po 0 0 0 15 00000000 00000000 ~~
+Li QFN50P400X400X90-20N
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -1.69331 -2.71299 0.321158 0.321158 0 0.05 N V 21 "QFN50P400X400X90-20N"
+T1 -1.49129 2.81053 0.321572 0.321572 0 0.05 N V 21 "VAL**"
+DS -2 -2 -2 2 0.127 24
+DS -2 2 2 2 0.127 24
+DS 2 2 2 -2 0.127 24
+DS 2 -2 -2 -2 0.127 24
+DS -2 -1.4 -2 -2 0.127 21
+DS -2 -2 -1.4 -2 0.127 21
+DS 1.4 -2 2 -2 0.127 21
+DS 2 -2 2 -1.4 0.127 21
+DS 1.4 2 2 2 0.127 21
+DS 2 2 2 1.4 0.127 21
+DS -2 1.4 -2 2 0.127 21
+DS -2 2 -1.4 2 0.127 21
+DS -2.5 -2.5 -2.5 2.5 0.05 24
+DS -2.5 2.5 2.5 2.5 0.05 24
+DS 2.5 2.5 2.5 -2.5 0.05 24
+DS 2.5 -2.5 -2.5 -2.5 0.05 24
+DC -2.25 -1.5 -2.1 -1.5 0 21
+DP 0 0 0 0 4 0.381 19
+Dl 0.125556 -1.045
+Dl 1.045 -1.045
+Dl 1.045 -0.125556
+Dl 0.125556 -0.125556
+DP 0 0 0 0 4 0.381 19
+Dl -1.04585 -0.12415
+Dl -1.04585 -1.04608
+Dl -0.12608 -1.04608
+Dl -0.12608 -0.12415
+DP 0 0 0 0 4 0.381 19
+Dl 1.04654 0.126539
+Dl 1.04654 1.04621
+Dl 0.12379 1.04621
+Dl 0.12379 0.126539
+DP 0 0 0 0 4 0.381 19
+Dl -0.125 1.04924
+Dl -1.04924 1.04924
+Dl -1.04924 0.125
+Dl -0.125 0.125
+$PAD
+Sh "1" R 0.26 0.84 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.935 -1
+$EndPAD
+$PAD
+Sh "2" R 0.26 0.84 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.935 -0.5
+$EndPAD
+$PAD
+Sh "3" R 0.26 0.84 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.935 0
+$EndPAD
+$PAD
+Sh "4" R 0.26 0.84 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.935 0.5
+$EndPAD
+$PAD
+Sh "5" R 0.26 0.84 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.935 1
+$EndPAD
+$PAD
+Sh "6" R 0.26 0.84 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1 1.935
+$EndPAD
+$PAD
+Sh "7" R 0.26 0.84 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.5 1.935
+$EndPAD
+$PAD
+Sh "8" R 0.26 0.84 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 1.935
+$EndPAD
+$PAD
+Sh "9" R 0.26 0.84 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.5 1.935
+$EndPAD
+$PAD
+Sh "10" R 0.26 0.84 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1 1.935
+$EndPAD
+$PAD
+Sh "11" R 0.26 0.84 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.935 1
+$EndPAD
+$PAD
+Sh "12" R 0.26 0.84 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.935 0.5
+$EndPAD
+$PAD
+Sh "13" R 0.26 0.84 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.935 0
+$EndPAD
+$PAD
+Sh "14" R 0.26 0.84 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.935 -0.5
+$EndPAD
+$PAD
+Sh "15" R 0.26 0.84 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.935 -1
+$EndPAD
+$PAD
+Sh "16" R 0.26 0.84 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1 -1.935
+$EndPAD
+$PAD
+Sh "17" R 0.26 0.84 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.5 -1.935
+$EndPAD
+$PAD
+Sh "18" R 0.26 0.84 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -1.935
+$EndPAD
+$PAD
+Sh "19" R 0.26 0.84 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.5 -1.935
+$EndPAD
+$PAD
+Sh "20" R 0.26 0.84 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1 -1.935
+$EndPAD
+$PAD
+Sh "21" R 2.6 2.6 0 0 0
+At SMD N 00888000
+.SolderMask 0
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE QFN50P400X400X90-20N

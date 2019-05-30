@@ -1,0 +1,228 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:station_sol
+LIBS:hall_sensor-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R7
+U 1 1 5AD7BD44
+P 2100 2950
+F 0 "R7" V 2180 2950 50  0000 C CNN
+F 1 "10k" V 2100 2950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 2950 50  0001 C CNN
+F 3 "" H 2100 2950 50  0001 C CNN
+	1    2100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5AD7BDA5
+P 2100 2450
+F 0 "R6" V 2180 2450 50  0000 C CNN
+F 1 "2,2k" V 2100 2450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 2450 50  0001 C CNN
+F 3 "" H 2100 2450 50  0001 C CNN
+	1    2100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5AD7BE5E
+P 2100 1700
+F 0 "R5" V 2180 1700 50  0000 C CNN
+F 1 "1,2k" V 2100 1700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 1700 50  0001 C CNN
+F 3 "" H 2100 1700 50  0001 C CNN
+	1    2100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5AD7BE7D
+P 2650 1900
+F 0 "C4" H 2675 2000 50  0000 L CNN
+F 1 "C" H 2675 1800 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2688 1750 50  0001 C CNN
+F 3 "" H 2650 1900 50  0001 C CNN
+	1    2650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5AD7BEC0
+P 2650 1500
+F 0 "C3" H 2675 1600 50  0000 L CNN
+F 1 "C" H 2675 1400 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2688 1350 50  0001 C CNN
+F 3 "" H 2650 1500 50  0001 C CNN
+	1    2650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J13
+U 1 1 5AD7BF03
+P 950 2800
+F 0 "J13" H 950 3000 50  0000 C CNN
+F 1 "Conn_01x03" H 950 2600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 950 2800 50  0001 C CNN
+F 3 "" H 950 2800 50  0001 C CNN
+	1    950  2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L HALL_SENSOR HS1
+U 1 1 5AD7BF50
+P 3250 2200
+F 0 "HS1" H 3250 2300 60  0000 C CNN
+F 1 "HALL_SENSOR" H 3450 2400 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3250 2300 60  0001 C CNN
+F 3 "" H 3250 2300 60  0001 C CNN
+	1    3250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR043
+U 1 1 5AD7C0E1
+P 1550 3200
+F 0 "#PWR043" H 1550 3000 50  0001 C CNN
+F 1 "GNDPWR" H 1550 3070 50  0000 C CNN
+F 2 "" H 1550 3150 50  0001 C CNN
+F 3 "" H 1550 3150 50  0001 C CNN
+	1    1550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR044
+U 1 1 5AD7C103
+P 1250 3200
+F 0 "#PWR044" H 1250 3050 50  0001 C CNN
+F 1 "+5V" H 1250 3340 50  0000 C CNN
+F 2 "" H 1250 3200 50  0001 C CNN
+F 3 "" H 1250 3200 50  0001 C CNN
+	1    1250 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 2900 1250 2900
+Wire Wire Line
+	1250 2900 1250 3200
+Wire Wire Line
+	1550 2800 1550 3200
+Wire Wire Line
+	1550 2800 1150 2800
+$Comp
+L GNDPWR #PWR045
+U 1 1 5AD7C1E9
+P 2100 3200
+F 0 "#PWR045" H 2100 3000 50  0001 C CNN
+F 1 "GNDPWR" H 2100 3070 50  0000 C CNN
+F 2 "" H 2100 3150 50  0001 C CNN
+F 3 "" H 2100 3150 50  0001 C CNN
+	1    2100 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2700 2100 2700
+Wire Wire Line
+	2100 2600 2100 2800
+Connection ~ 2100 2700
+Wire Wire Line
+	2100 3200 2100 3100
+Wire Wire Line
+	2100 1850 2100 2300
+$Comp
+L GNDPWR #PWR046
+U 1 1 5AD7C438
+P 2350 1750
+F 0 "#PWR046" H 2350 1550 50  0001 C CNN
+F 1 "GNDPWR" H 2350 1620 50  0000 C CNN
+F 2 "" H 2350 1700 50  0001 C CNN
+F 3 "" H 2350 1700 50  0001 C CNN
+	1    2350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR047
+U 1 1 5AD7C45A
+P 2100 1250
+F 0 "#PWR047" H 2100 1100 50  0001 C CNN
+F 1 "+5V" H 2100 1390 50  0000 C CNN
+F 2 "" H 2100 1250 50  0001 C CNN
+F 3 "" H 2100 1250 50  0001 C CNN
+	1    2100 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1550 2100 1250
+Wire Wire Line
+	2100 1300 2900 1300
+Wire Wire Line
+	2650 1300 2650 1350
+Connection ~ 2100 1300
+Wire Wire Line
+	2650 1650 2650 1750
+Wire Wire Line
+	2350 1700 2950 1700
+Connection ~ 2650 1700
+Wire Wire Line
+	2350 1700 2350 1750
+Wire Wire Line
+	2650 2050 2650 2100
+Wire Wire Line
+	2100 2100 2900 2100
+Connection ~ 2100 2100
+Wire Wire Line
+	2950 1550 2900 1550
+Wire Wire Line
+	2900 1550 2900 1300
+Connection ~ 2650 1300
+Wire Wire Line
+	2950 1850 2900 1850
+Wire Wire Line
+	2900 1850 2900 2100
+Connection ~ 2650 2100
+$EndSCHEMATC

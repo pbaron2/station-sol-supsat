@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by PcbNew   date = 19/04/2018 10:11:22
+
+BeginCmp
+TimeStamp = 5AD65A66
+Path = /5AD6350D
+Reference = C1;
+ValeurCmp = CP;
+IdModule  = Capacitors_THT:CP_Radial_D8.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65A6C
+Path = /5AD62A67
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65A72
+Path = /5AD64F19
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65B2C
+Path = /5AD62A18
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65B42
+Path = /5AD64F13
+Reference = R2;
+ValeurCmp = 220;
+IdModule  = Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65AB8
+Path = /5AD627BD
+Reference = DRIVER_1;
+ValeurCmp = Adafruit_Motor_Driver;
+IdModule  = station_sol:Adafruit_Motor_Driver;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65AF2
+Path = /5AD620AB
+Reference = ESP32_1;
+ValeurCmp = ESP32_devkit;
+IdModule  = station_sol:ESP32_devkit;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65B5F
+Path = /5AD658EE
+Reference = SSD1306_1;
+ValeurCmp = SSD1306;
+IdModule  = station_sol:SSD1306;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD75818
+Path = /5AD753C9
+Reference = J6;
+ValeurCmp = Conn_01x08;
+IdModule  = station_sol:Pin_Header_Straight_1x08_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65B0F
+Path = /5AD62B8E
+Reference = J4;
+ValeurCmp = Conn_01x03;
+IdModule  = station_sol:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65B16
+Path = /5AD64F1F
+Reference = J5;
+ValeurCmp = Conn_01x03;
+IdModule  = station_sol:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65B08
+Path = /5AD62E9F
+Reference = J3;
+ValeurCmp = Conn_01x04;
+IdModule  = station_sol:Pin_Header_Straight_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65B00
+Path = /5AD62E4E
+Reference = J2;
+ValeurCmp = Conn_01x04;
+IdModule  = station_sol:Pin_Header_Straight_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD65AF8
+Path = /5AD62CF3
+Reference = J1;
+ValeurCmp = Conn_01x02;
+IdModule  = station_sol:Pin_Header_Straight_1x02_Pitch2.54mm;
+EndCmp
+
+EndListe
